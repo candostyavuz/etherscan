@@ -1,0 +1,63 @@
+body {
+    font-family: 'Muli', sans-serif;
+    margin: 10px;
+    padding: 20px;
+    background: linear-gradient(#ffffff,#a3c7e3, #ca98d8);
+}
+
+h1{
+  font: italic 3.2em "Fira Sans", Stencil Std, fantasy;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+}
+
+
+#components {
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  margin: 10px 0;
+  padding: 5px 0;
+}
+
+.infos {
+  border: 1px solid rgb(30, 2, 40);
+  border-width: 2px;
+  border-radius: 25px;
+  background-color: rgb(241, 240, 242);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 8px 0;
+  &:before {
+    position: relative;
+    left: 5px;
+  }
+}
+
+.txinfos {
+  border: 1px solid rgb(30, 2, 40);
+  border-width: 2px;
+  border-radius: 25px;
+  background-color: rgb(241, 240, 242);
+  text-align: center;
+  display: inline-table;
+  letter-spacing: 0.4px;
+  padding: 8px 0;
+  margin: 0 auto;
+}
+
+.button {
+  margin: 0 auto;
+  top: -30px;
+  display: block;
+  width: 20%;
+  position: relative;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: rgb(216, 138, 69);
+  cursor: pointer;
+  text-transform: uppercase;
+  color:rgb(255, 255, 255);
+  text-align: center;
+}
